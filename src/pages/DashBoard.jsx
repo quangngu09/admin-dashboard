@@ -5,7 +5,7 @@ import Chart from "react-apexcharts";
 import { Link } from "react-router-dom";
 import Badge from "../components/badge/Badge";
 import { useSelector } from "react-redux";
-import Table from '../components/table/Table'
+import Table from "../components/table/Table";
 
 const chartOptions = {
   series: [
@@ -176,7 +176,6 @@ const DashBoard = () => {
         </div>
         <div className="col-6">
           <div className="card full-height">
-            {/* chart */}
             <Chart
               options={
                 themeReducer === "theme-mode-dark"
@@ -189,9 +188,6 @@ const DashBoard = () => {
                       theme: { mode: "light" },
                     }
               }
-              series={chartOptions.series}
-              type="line"
-              height="100%"
               series={chartOptions.series}
               type="line"
               height="100%"
