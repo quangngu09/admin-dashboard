@@ -158,7 +158,7 @@ const DashBoard = () => {
   const themeReducer = useSelector((state) => state.ThemeReducer.mode);
   return (
     <div>
-      <h2 className="page-header">Dashboard</h2>
+      <h2 className="page-header">Dashboardddd</h2>
       <div className="row">
         <div className="col-6">
           <div className="row">
